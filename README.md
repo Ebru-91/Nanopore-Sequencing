@@ -30,6 +30,6 @@ runners per device: 4
 The EULA may be found in C:\Program Files\OxfordNanopore\ont-guppy\bin
 
 # Run OutPut
-You can find fesults for the target enrichment protocol for HTT gene in Cas9-HTT folder. sgRNA designs can be found HTT sgRNA Designs.ods
+You can find fesults for the target enrichment protocol for HTT gene in [Cas9-HTT folder](https://drive.google.com/drive/folders/1WAF_SkkpwK5PV3zeDSfY44Ax-qylGZfM?usp=drive_link). sgRNA designs can be found HTT sgRNA Designs.ods
 
 
