@@ -10,3 +10,26 @@ All experiments will be carried out on DNA from cell lines to be purchased from 
 # Protocol
 Please find the attached protocol described in Cas9-Enrichment and Library Prep Protocol.doc
 
+# Run Parameters
+C:\Program Files\OxfordNanopore\ont-guppy\bin>guppy_basecaller -i c:\ebru\fast5_skip -s c:\ebru\output_skip --flowcell FLO-MIN106 --kit SQK-LSK109 --barcode_kits EXP-NBD104 -x "cuda:0" -r
+ONT Guppy basecalling software version 6.3.8+d9e0f648d, minimap2 version 2.22-r1101
+config file:        C:\Program Files\OxfordNanopore\ont-guppy\data\dna_r9.4.1_450bps_hac.cfg
+model file:         C:\Program Files\OxfordNanopore\ont-guppy\data\template_r9.4.1_450bps_hac.jsn
+input path:         c:\ebru\fast5_skip
+save path:          c:\ebru\output_skip
+chunk size:         2000
+chunks per runner:  256
+minimum qscore:     9
+records per file:   4000
+num basecallers:    4
+gpu device:         cuda:0
+kernel path:
+runners per device: 4
+
+#Use of this software is permitted solely under the terms of the end user license agreement (EULA).By running, copying or accessing this software, you are demonstrating your acceptance of the EULA.
+The EULA may be found in C:\Program Files\OxfordNanopore\ont-guppy\bin
+
+# Run OutPut
+You can find fesults for the target enrichment protocol for HTT gene in Cas9-HTT folder. sgRNA designs can be found HTT sgRNA Designs.xlsx
+
+
